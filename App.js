@@ -1,17 +1,16 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { createStackNavigator } from "@react-navigation/stack";
 import React from "react";
 import "react-native-gesture-handler";
-import { HomeScreen } from "./screens";
+import { Provider as PaperProvider } from "react-native-paper";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import { RootNavigator } from "./src/components/root-navigator";
 
-const Stack = createStackNavigator();
-
-export default App = () => {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="home" component={HomeScreen} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
-}
+export default () => (
+  <SafeAreaProvider>
+    <PaperProvider>
+      <NavigationContainer>
+        <RootNavigator />
+      </NavigationContainer>
+    </PaperProvider>
+  </SafeAreaProvider>
+);
