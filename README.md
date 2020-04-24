@@ -1,7 +1,7 @@
 # TMB App for AWUG III
 
 ## Integrants de l’equip
-- 
+- David Moya @dmoyandreu
 
 
 ## Enllaços a descàrregues
