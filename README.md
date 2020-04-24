@@ -1,5 +1,9 @@
 # TMB App for AWUG III
 
+## Integrants de l’equip
+- 
+
+
 ## Enllaços a descàrregues
 
 - [Llistat de parades](https://developer.tmb.cat/downloads/parades.json)
