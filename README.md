@@ -2,7 +2,7 @@
 
 ## Integrants de l’equip
 - David Moya @dmoyandreu
-
+- Arnau Alloza @alloza95
 
 ## Enllaços a descàrregues
 
